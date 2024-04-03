@@ -9,6 +9,11 @@ public class Test63_3 {
 		/*
 		 * 3. java.lang.Character 클래스의 메소드를 이용하여 숫자인지, 알 파벳인지, 기타문자인지 확인하여 출력하기  
 		 * API문서에서 숫자인지 여부를 확인하는 메서드, 알파벳인지 여부를 확인하는 메서드 2개 찾아서 이용 (is로 시작하는 메서드)
+		 * 
+		 * 
+		isAlphabetic : 지정된 문자(유니코드 코드 포인트)가 알파벳인지 확인합니다.
+		
+		isDigit : 문자가 유니코드로 정의되어 있는지 확인합니다.
 		 */
 
 		Scanner sc = new Scanner(System.in);

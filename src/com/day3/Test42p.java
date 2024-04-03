@@ -2,7 +2,7 @@ package com.day3;
 
 import java.util.Scanner;
 
-public class Test3 {
+public class Test42p {
 
 	public static void main(String[] args) {
 		//평균을 입력받아 학점 구하기
@@ -12,7 +12,7 @@ public class Test3 {
 
 		//********학점 저장********* < 뺴먹은 부분. 
 		String grade; 
-
+		
 	
 		if (avg >= 90 && avg<=100) {
             grade = "A";
