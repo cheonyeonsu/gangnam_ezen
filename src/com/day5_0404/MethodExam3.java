@@ -1,6 +1,6 @@
-package com.day4_0403;
+package com.day5_0404;
 
-public class Test_107p {
+public class MethodExam3 {
 
 	public static void main(String[] args) {
 		
