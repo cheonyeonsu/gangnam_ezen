@@ -9,6 +9,9 @@ public class ArrayTest_44p {
 		 더  큰  값을  앞의  배열로  이동한다  (swap)
 		 */
 		
+		//깃좀 돼라
+		//수정수정
+		//수정이어라
 		
 
 	}
