@@ -14,7 +14,7 @@ public class MethodTest3 {
 		
 		//메서드 호출
 		//1. 직접 값을 넘겨준다.
-		int result = minus(30,10);
+		int result = minus(30,10); //매개변수 a,b
 		System.out.println(result);
 		
 		//2.변수에 값을 넣어서 넘겨준다
@@ -25,7 +25,7 @@ public class MethodTest3 {
 		//2)
 		Scanner sc = new Scanner(System.in);
 		System.out.println("정수 2개를 입력하세요");
-		int num1 =sc.nextInt();
+		int num1 =sc.nextInt(); //int값 두개 받아서 넘김
 		int num2 =sc.nextInt();
 		
 		//1)
