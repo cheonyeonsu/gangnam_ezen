@@ -20,8 +20,19 @@ public class Test_95p {
 		
 		//[3] 1부터 10까지의 합
 		System.out.println("1부터 10까지의 합");
+		int sum = 0;
 		for(int i=1;i<=10;i++) {
-			////여기부터 시작하면 도비니다.
+			sum+=i;
+			//shift+space = syso
+			
+		for(int j=1;j<=i;j++) {
+			if(j==1) {
+				System.out.print(1);
+			}else {
+				System.out.print("+"+j);
+			}
+		}
+		System.out.println();
 		}
 	}
 
