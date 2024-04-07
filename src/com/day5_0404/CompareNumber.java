@@ -12,7 +12,7 @@ public class CompareNumber {
          입력기회를 4회로 제한
        */
       
-      //public static double random()
+      //public static double random() : 값이 실수로 나옴. 
       /*
        0.0 ~ 1.0 범위의 임의의 double값을 반환
        0.0 <= x < 1.0
@@ -33,6 +33,7 @@ public class CompareNumber {
       //int answer = (int)(Math.random()*100+1);
       //int answer=rnd();
       int answer=rnd2(100,1);
+      //int answer2=rnd();
       System.out.println(answer);
       
       //4번 반복
@@ -64,8 +65,9 @@ public class CompareNumber {
       System.out.println("==== end ====");
    }//main
 
+   
    public static int  rnd() {
-      int answer = (int)(Math.random()*100+1);
+      int answer = (int)Math.random()*100+1;
       return answer;
    }
    
@@ -76,7 +78,7 @@ public class CompareNumber {
          start=end;
          end=temp;         
       }
-      
+      //암기. 
       int answer = (int)(Math.random()*(end-start+1)+start);
       
       return answer;

@@ -12,7 +12,7 @@ public class Test_0405 {
 		7 ~ 9월 : 3사분기, 10 ~ 12월 : 4사분기
 		 * */
 		
-		/*
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("월을 입력하세요.");
 		int month = sc.nextInt();
@@ -31,10 +31,8 @@ public class Test_0405 {
 			month2 = "올바른 숫자를 입력해주세요.";
 		}
 		System.out.println(month+"월은 "+month2+" 입니다.");
-		*/
-		Scanner sc = new Scanner(System.in);
-		System.out.println("고과점수를 입력하세요.");
-		int review = sc.nextInt();
+		
+
 		
 	}
 	}

@@ -9,9 +9,10 @@ public class Test_94p {
 		int count = 0;
 		System.out.println("7의 배수이거나 9의 배수");
 		for(int i=1;i<=99;i++) {
-			if(i%7==0 || i%9 ==0) {
+			if(i%7==0 || i%9 == 0) { //7의 배수 >>이거나<< 9의 배수. 
 				System.out.print(i+"\t");
-				 count++;
+				//가로로 5개씩만 출력  
+				count++;
 				 if(count%5==0) {
 					 System.out.println();
 				 }

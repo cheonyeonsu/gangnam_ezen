@@ -3,7 +3,6 @@ package com.day6_0405;
 public class ArrayRank {
 
 	public static void main(String[] args) {
-		//집에 보내줘.
 		//2차원 배열
 		
 		//1.

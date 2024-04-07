@@ -41,14 +41,14 @@ public class ArrayTest3 {
 		
 		//초기화
 		System.out.println("실수 4개 입력!");
-		for(int i=0;i<dArr.length;i++) {
-			dArr[i] = sc.nextDouble();
+		for(int i=0;i<arr.length;i++) {
+			arr[i] = sc.nextInt();
 			
 		}
 		
 		//출력 
-		for(int i=0;i<dArr.length;i++) {
-			System.out.print(dArr[i]+" ");
+		for(int i=0;i<arr.length;i++) {
+			System.out.print(arr[i]+" ");
 		}
 		
 	}

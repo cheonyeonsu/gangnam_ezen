@@ -9,7 +9,7 @@ public class ArrayArgs {
 									//국영수 점수 들어있음. 
 	public static double findAvg(int[] score) {
 		int sum=0;
-		for(int i=0; i<score.length;i++) {
+		for(int i=0; i<score.length;i++) { //score의 배열의 크기 만큼.
 			sum+=score[i];
 		}
 		
