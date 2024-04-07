@@ -3,7 +3,6 @@ package com.day4_0403;
 public class ContinueTest1 {
 
 	public static void main(String[] args) {
-		//연수.화이팅.할수있다.
 		
 		/*
 		 [1]break

@@ -20,6 +20,7 @@ public class Test_95p {
 		
 		//[3] 1부터 10까지의 합
 		System.out.println("1부터 10까지의 합");
+<<<<<<< HEAD
 		int sum = 0;
 		for(int i=1;i<=10;i++) {
 			sum+=i;
@@ -33,6 +34,11 @@ public class Test_95p {
 			}
 		}
 		System.out.println();
+=======
+		int sum=0;
+		for(int i=1;i<=10;i++) {
+			
+>>>>>>> 2b89290504de50047596bbbdd5bfe1d5923ba6e9
 		}
 	}
 

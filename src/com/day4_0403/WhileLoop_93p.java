@@ -23,7 +23,7 @@ public class WhileLoop_93p {
 		
 		*/
 		
-		//[2]while 이용 - 사용자로부터 입력받은 숫자에 해당하는 구구단을 역순으로 출력. 엥 하다가 안멈춰 ㅠ
+		//[2]while 이용 - 사용자로부터 입력받은 숫자에 해당하는 구구단을 역순으로 출력. 
 		 Scanner sc = new Scanner(System.in);
 	        int num1 = 0;
 	        
