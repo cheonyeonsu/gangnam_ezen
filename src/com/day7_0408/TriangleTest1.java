@@ -1,0 +1,24 @@
+package com.day7_0408;
+
+import java.util.Scanner;
+
+//점심시간 직전 
+public class TriangleTest1 {
+
+	public static void main(String[] args) {
+		//[1] main에서 직접 삼각형 면적 구하기 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("삼각형 밑변, 높이 입력!");
+		int w = sc.nextInt();
+		int h = sc.nextInt();
+		
+		//로직처리 - 삼각형 면적
+		int area = w*h/2; //매번 이렇게 쓰지는 않는다. 
+		
+		//결과 출력 
+		System.out.println("삼각형 면적 : " +area);
+		
+
+	}
+
+}
