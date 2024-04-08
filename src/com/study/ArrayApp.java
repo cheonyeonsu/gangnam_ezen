@@ -15,5 +15,7 @@ public class ArrayApp {
 	int[] scors = {10,20};
 		
 	}
+	
+	//이 웬수같은 
 
 }
