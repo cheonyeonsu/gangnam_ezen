@@ -2,7 +2,13 @@ package com.day7_0408;
 //#7
 public class Rectangle {
 
-	double width, height;
+	double width, height; //멤버변수
+	
+	//생성자********************
+	Rectangle(double w,double h){
+		width=w;
+		height=h;
+	}
 
 	   public double findArea(){   // 넓이 구하기
 	      return width * height;

@@ -10,7 +10,7 @@ public static int findArea(int w,int h) {
 }
 	
 	public static void main(String[] args) {
-		//[1] 매서드만 만들어서  삼각형 면적 구하기 
+		//[2] 매서드만 만들어서  삼각형 면적 구하기 
 		
 		
 		//사용자 입력받
