@@ -53,7 +53,8 @@ public class Account {
 		
 		//매서드 선언 
 		public void deposit(int money) {
-			balance += money; //입금하다 
+			balance += money; //입금하다
+			//리턴값이 없으니 결과값 바로 선언하면 안됨 .
 		}
 		
 		public void withdraw(int money) {
