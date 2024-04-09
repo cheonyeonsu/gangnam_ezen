@@ -41,7 +41,7 @@ class Person{
 	
 	
 	//4.메서드
-	public void showinfo() {
+	public void showInfo() {
 		System.out.println("이름 : "+name);
 		System.out.println("전화번호 : "+phone);
 		System.out.println("나이 : "+age+"\n");
@@ -60,7 +60,7 @@ public class PersonTest {
 		int age = sc.nextInt();
 		
 		Person p = new Person(name,age,phone);
-		p.showInfo();
+		p.showInfo(); //대소문자 주의 . 
 		
 		//멤버변수 값 변경 - setter이용
 		p.setAge(25);
