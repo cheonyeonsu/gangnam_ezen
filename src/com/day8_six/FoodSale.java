@@ -11,21 +11,22 @@ public class FoodSale {
 	double discount=0.1; //할인율
 	
 	//생성자
-	public FoodSale(String name,int quantity,int price,int salesPrice) {
-		this.name=name;
-		this.quantity=quantity;
-		this.price=price;
-		this.salesPrice=salesPrice;
+	public FoodSale(String name,int quantity,int price) {
+		this.name=name; //메뉴 
+		this.quantity=quantity; //수량 
+		this.price=price; //단가 
+		
 	}
 	
 	//GetterSetter
-	public static int getTotalPrice() {
+	public int getSalesPrice() { //판매가
+		return salesPrice;
+	}
+	
+	public static int getTotalPrice() { //누적금액 
 		return totalPrice;
 	}
 	
-	public int getSalesPrice() {
-		return salesPrice;
-	}
 	
 	//매서드
 	public void findSalesPrice() { //가격 구하기 : 수량*가격*할인율

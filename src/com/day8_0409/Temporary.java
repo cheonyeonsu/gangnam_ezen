@@ -3,20 +3,19 @@ package com.day8_0409;
 public class Temporary {
 
 	/*
-	 * 임시직 클래스 정의 (Temporary)  
-	 * 멤버변수 : 이름(name), 일한시간(time), 시간당 급여(pay)  
-	 * 생성자, getter/setter  
-	 * 메서드 : 급여를 계산하는 메서드  => 일한시간 * 시간당 급여
+	 * 임시직 클래스 정의 (Temporary)  
+	 * 멤버변수 : 이름(name), 일한시간(time), 시간당 급여(pay) 
+	 * 생성자, getter/setter 
+	 * 메서드 : 급여를 계산하는 메서드 => 일한시간 * 시간당 급여
 	 */
 	
-	//멤버변수 : private생략X
+	//멤버변수 : private생략 X
 	private String name;
 	private int time;
 	private int pay; //시급
 	
 	
-	//생성자
-	//생성자이름은 클래스명과 같다. 
+	//생성자 : ***생성자이름=클래스명***
 	public Temporary(String name,int time,int pay) {
 		this.name=name;
 		this.time=time;

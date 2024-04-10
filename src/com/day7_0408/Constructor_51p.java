@@ -37,7 +37,7 @@ public class Constructor_51p {
 		System.out.println("직급을 입력하세요");
 		String rank = sc.nextLine();
 
-		/*이렇게 해도 됨!
+		/*이렇게 해도 됨!더 간단함.
 		System.out.println("이름,전화번호,주소,직급을 입력하세요");
 		String name = sc.nextLine();
 		String phone = sc.nextLine();

@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class TemporaryTest {
 
 	/*
-    		main 에서
-          사용자로부터 이름, 일한 시간, 시간당 급여를 입력 받아서
-          생성자로 초기화
-          급여계산 메서드 호출하여 급여를 계산한 후
-          결과 출력
+    	main 에서
+         사용자로부터 이름, 일한 시간, 시간당 급여를 입력 받아서
+         생성자로 초기화
+         급여계산 메서드 호출하여 급여를 계산한 후
+         결과 출력
 
 	 */
 	
@@ -31,7 +31,7 @@ public class TemporaryTest {
 		t = sc.nextInt();
 		p = sc.nextInt();
 		
-		//빼먹지말기
+		//빼먹지말기. 입력받은 값 넣어줌.
 		tp.setName(n);
 		tp.setTime(t);
 		tp.setPay(p);

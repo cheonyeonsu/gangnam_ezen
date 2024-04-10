@@ -1,3 +1,5 @@
+package com.day8_six;
+
 public class StaticTest {
     private int num1 = 10; //인스턴스 변수
     private static int num2 = 20; //static 변수
@@ -28,12 +30,12 @@ public class StaticTest {
     	System.out.println("더하기: "+ result);
     	
     	
-    	int result = multiply(10, 7); //static 메서드 호출
-        System.out.println("곱하기:" + result);
+    	int result1 = multiply(10, 7); //static 메서드 호출
+        System.out.println("곱하기:" + result1);
 
         //static 메서드는 static 데이터만 접근 가능,
         //non-static 데이터는 new로 클래스를 인스턴스화 시킨 후 접근해야 함
-        StaticTest obj = new StaticTest();
+        StaticTest obj1 = new StaticTest();
         result = obj.add();
         System.out.println("더하기:" + result);
     }

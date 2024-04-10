@@ -13,7 +13,7 @@ public class TriangleTest1 {
 		int h = sc.nextInt();
 		
 		//로직처리 - 삼각형 면적
-		int area = w*h/2; //매번 이렇게 쓰지는 않는다. 
+		int area = w*h/2; 
 		
 		//결과 출력 
 		System.out.println("삼각형 면적 : " +area);

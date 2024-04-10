@@ -1,3 +1,4 @@
+
 package com.day8_six;
 
 import java.util.Scanner;
@@ -8,13 +9,13 @@ public class FoodSaleTest {
 		Scanner sc = new Scanner(System.in);
 		
 		while(true) {
-			System.out.println("메뉴, 수량, 단가, 할인율을 입력하세요.");
+			System.out.println("메뉴, 수량, 단가를 입력하세요.");
 			String name = sc.nextLine();
 			int quantity = sc.nextInt();
 			int salesPrice = sc.nextInt();
-			int discount = sc.nextInt();
+			//int discount = sc.nextInt();
 			
-			FoodSale fs = new FoodSale(name,quantity,salesPrice,discount);
+			FoodSale fs = new FoodSale(name,quantity,salesPrice);
 			fs.findSalesPrice();
 			fs.findTotalPrice();
 			
