@@ -25,29 +25,16 @@ public class Constructor_51p {
 		//[2]사용자에게 입력받기
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("이름을 입력하세요");
-		String name = sc.nextLine();
-
-		System.out.println("전화번호를 입력하세요");
-		String phone = sc.nextLine();
-
-		System.out.println("주소를 입력하세요");
-		String address = sc.nextLine();
-
-		System.out.println("직급을 입력하세요");
-		String rank = sc.nextLine();
-
-		/*이렇게 해도 됨!더 간단함.
 		System.out.println("이름,전화번호,주소,직급을 입력하세요");
 		String name = sc.nextLine();
 		String phone = sc.nextLine();
 		String address = sc.nextLine();
 		String rank = sc.nextLine();
 		
-		*/
+
 		
 		//[1]객체 생성, 괄호 안에 자료형 쓸 필요없음 < 왜그런지 알기.
-		//매개변수???
+		//매개변수
 		NameCard nc = new NameCard(name,phone,address,rank); 
 		
 		//[3]매서드 호출

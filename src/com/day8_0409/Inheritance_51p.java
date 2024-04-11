@@ -7,8 +7,9 @@ class human{
 	  이름, 나이
 	  getter/setter 만들기 */
 	
-	String name;
-	int age;
+	//protected 빼먹지말기. 
+	protected String name;
+	protected int age;
 	
 	public void setName(String name) {
 		this.name=name;
@@ -33,7 +34,7 @@ class human{
  가르친다(System.out.println으로 가르친다는 내용을 화면 출력) */
 
 class Teacher extends human{
-	String subject;
+	private String subject;
 	
 	public void setSubject(String subject) {
 		this.subject=subject;
@@ -43,11 +44,8 @@ class Teacher extends human{
 	}
 	
 	public void work() {
-		System.out.println("이름 : "+name);
-		System.out.println("나이 : "+age);
-		System.out.println("과목 : "+subject);
 		System.out.println("가르치는 일을 합니다. ");
-		//System.out.println(subject+"를() 가르칩니다.");
+		//여기에서 결과 찍는게 아니었다. 
 	}
 	
 }
@@ -59,12 +57,12 @@ class Teacher extends human{
  메서드:하는일
  프로그래밍한다. */
 class Programmer extends human{
-	int career;
+	private int career;
 	
-	public void setCarrer() {
+	public void setCarrer(int career) {
 		this.career=career;
 	}
-	public int getCarrer(int career) {
+	public int getCarrer() {
 		return career;
 	}
 	public void work() {
@@ -83,23 +81,46 @@ public class Inheritance_51p {
 	 Programmer 객체 생성 후 처리
 	  */
 public static void main(String[] args) {
-	
-	
 	Scanner sc = new Scanner(System.in);
 	System.out.println("이름, 나이, 과목을 입력하세요.");
 	String name = sc.nextLine();
-	int age = sc.nextInt();
+	int age = Integer.parseInt(sc.nextLine()); 
+	/*
+	int age = sc.nextInt(); 
+	nextInt매서드 호출 뒤 nextLine 하면 먼저 입력된 정수 값이 있어서 안됨. (개행문자 존재.)
+	그래서 Line으로 문자를 소비해주고, 문자 변환. 
+	(개행 문자 : 컴퓨터에서 새로운 줄로 넘어가는 것을 나타내는 특수 문자)
+	*/
 	String subject = sc.nextLine();
 
-
+	System.out.println("===========================");
+	
 	Teacher t = new Teacher();
-	t.setSubject(subject);
 	t.setName(name);
 	t.setAge(age);
+	t.setSubject(subject); 
+	
+	//set으로 받아온 값 get으로 보여줌
+	System.out.println("이름 : "+t.getName());
+	System.out.println("나이 : "+t.getAge());
+	System.out.println("과목 : "+t.getSubject());
+	t.work();
+	
+	System.out.println("이름, 나이, 개발경력을 입력하세요.");
+	name  = sc.nextLine();
+	age = Integer.parseInt(sc.nextLine());
+	int career = sc.nextInt();
 	
 	System.out.println("===========================");
 	
-	t.work();
+	Programmer p = new Programmer();
+	p.setName(name);
+	p.setAge(age);
+	p.setCarrer(career);
+	System.out.println("이름 : "+p.getName());
+	System.out.println("나이 : "+p.getAge());
+	System.out.println("개발경력 : "+p.getCarrer());
+	p.work();
 	
 	
 }
