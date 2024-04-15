@@ -85,7 +85,7 @@ public class Polymorphism2 {
 		
 		//다형성 이용
 		System.out.println("\n======다형성 이용======");
-		Shape s = null;
+		Shape s = null; //참조형은 null로 초기화
 		if(type==1) {
 			s=new Circle();
 		}else if(type==2) {
