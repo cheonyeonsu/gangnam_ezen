@@ -3,7 +3,6 @@ package com.day11_0415;
 import java.util.Scanner;
 
 //#1
-
 class Shape{
 	public void draw() {
 		System.out.println("도형을 그리는 메서드");
@@ -54,7 +53,30 @@ public class Polymorphism {
 		Shape s=createShape(type); //메서드 이름에 리턴된 값이 들어온다. 부모에 자식 넣기
 		s.draw(); //오버라이딩으로 불러오기
 		s.delete();
-
+		sc.close();
+		
+		//Circle 배열
+		Circle[] cArr = new Circle[2];
+		//cArr[0]=new Circle();
+		for (int i=0; i<cArr.length;i++) {
+		cArr[i] = new Circle();
+		cArr[i].draw(); 
+		cArr[i].delete();
+		}
+		
+		//Shape 배열
+		Shape[] shArr = new Shape[3];
+		//shape배열에 shape 넣는다. 부모니까 자식객체 넣는다. 
+		shArr[0] = new Circle(); 
+		shArr[1] = new Triangle();
+		shArr[2] = new Circle();
+		
+		System.out.println("\n==========다형성 이용 - 배열==========");
+		for (int i=0; i<shArr.length;i++) {
+			shArr[i].draw(); //부모배열에 자식을 넣어서 일괄적으로 관리
+			shArr[i].delete();
+			
+		}
 	}
 
 	public static Shape createShape(int type) { 
