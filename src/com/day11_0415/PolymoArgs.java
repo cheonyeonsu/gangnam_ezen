@@ -1,7 +1,5 @@
 package com.day11_0415;
 
-import com.day10_0412.IsaTest;
-
 class Person //부모
 {
 	public String kind() 
