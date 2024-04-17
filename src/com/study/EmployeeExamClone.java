@@ -94,7 +94,7 @@ class SalesPerson extends Permanent{
 	private int earnings;
 	
 	//생성자
-	public SalesPerson(Srting name, int salary, int earnings) {
+	public SalesPerson(String name, int salary, int earnings) {
 		super(name,salary);
 		this.earnings = earnings;
 	}
